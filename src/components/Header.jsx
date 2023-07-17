@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg py-2" style={{ background: "#b8c1ec" }}>
+    <nav className="navbar navbar-expand-lg py-5" style={{ background: "#b8c1ec" }}>
       <div className="container">
-        <a className="navbar-brand logo text-dark fw-bold" href="#">K A S</a>
+        <a className="navbar-brand logo text-dark fw-bold" href="https://example.com">K A S</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -16,13 +16,10 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse h5" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects">Projects</a>

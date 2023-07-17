@@ -7,9 +7,13 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+const appStyle = {
+  fontFamily: 'Source Sans Pro, sans-serif',
+};
+
 const App = () => {
   return (
-    <div className="app">
+    <div className="app" style={appStyle}>
       <Header />
       <Hero />
       <Skills />

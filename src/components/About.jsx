@@ -1,12 +1,13 @@
 import React from 'react';
+import portraitImage from '../images/portrait.jpg';
 
 const About = () => {
   return (
     <section id="about" className="about py-5 text-center" style={{ background: "#b8c1ec" }}>
       <div className="container">
-        <h2 className="py-2 text-light mb-5">About Me</h2>
+        <h2 className="py-2 text-light mb-5 display-4">About Me</h2>
         <div className="row align-items-center">
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="about-text">
               <h3>Frontend Web Developer</h3>
               <p className="fs-5">
@@ -20,8 +21,10 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6">
-            <img src="https://via.placeholder.com/300" alt="About Me" className="about-photo img-fluid" />
+          <div className="col-md-4">
+            <div className="image-container">
+              <img src={portraitImage} alt="About Me" className="about-photo img-fluid shadow" style={{ maxWidth: '300px' }} />
+            </div>
           </div>
         </div>
       </div>

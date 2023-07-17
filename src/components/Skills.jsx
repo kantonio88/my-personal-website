@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills text-white text-center py-5" style={{ background: "#232946" }}>
       <div className="container">
-        <h2 className="py-2 mb-5">Skills</h2>
+        <h2 className="py-2 mb-5 display-4">Skills</h2>
         <div className="row">
           <div className="col">
             <div className="skill-icon">
