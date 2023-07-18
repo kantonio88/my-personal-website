@@ -1,16 +1,18 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_snd1n5l', 'template_sn1kzax', e.target, 'RB_253im_9RtDb-k5')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+    try {
+      await emailjs.sendForm('service_snd1n5l', 'template_sn1kzax', e.target, 'RB_253im_9RtDb-k5');
+      toast.success('Email sent successfully!', { position: toast.POSITION.TOP_CENTER });
+    } catch (error) {
+      toast.error('Failed to send email!', { position: toast.POSITION.TOP_CENTER });
+    }
 
     e.target.reset();
   };
@@ -44,6 +46,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 };
