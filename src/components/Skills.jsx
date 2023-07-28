@@ -10,61 +10,58 @@ import { ReactComponent as GithubIcon } from 'devicon/icons/github/github-origin
 
 const Skills = () => {
   return (
-    <section id="skills" className="skills text-white text-center py-5" style={{ background: "#232946" }}>
+    <section id="skills" className="skills text-dark text-center py-5" style={{ background: "#ffff" }}>
       <div className="container">
-        <h2 className="py-2 mb-5 display-4">Skills</h2>
-        <div className="row">
-          <div className="col">
+        <h1 className="mb-4 display-4"><strong>SKILLS</strong></h1>
+        <div className="row d-flex justify-content-evenly">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <HtmlIcon className="icon" />
+              <HtmlIcon className="icon py-4" />
               <span>HTML</span>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <CssIcon className="icon" />
+              <CssIcon className="icon py-4" />
               <span>CSS</span>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <JsIcon className="icon" />
+              <JsIcon className="icon py-4" />
               <span>JavaScript</span>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <TsIcon className="icon" />
+              <TsIcon className="icon py-4" />
               <span>TypeScript</span>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <ReactIcon className="icon" />
+              <ReactIcon className="icon py-4" />
               <span>React</span>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <BootstrapIcon className="icon" />
+              <BootstrapIcon className="icon py-4" />
               <span>Bootstrap</span>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <GitIcon className="icon" />
+              <GitIcon className="icon py-4" />
               <span>Git</span>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-1">
             <div className="skill-icon">
-              <GithubIcon className="icon" style={{ background: "#ffffff" }} />
+              <GithubIcon className="icon py-4"/>
               <span>GitHub</span>
             </div>
           </div>
-        </div>
-        <div className="text-center mt-4">
-          <button className="btn btn-lg" style={{ background: "#eebbc3" }}>My Work</button>
         </div>
       </div>
     </section>

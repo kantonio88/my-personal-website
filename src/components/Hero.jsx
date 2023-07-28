@@ -3,19 +3,19 @@ import antonioImage from '../images/Antonio.Pro.image.png';
 
 const Hero = () => {
   return (
-    <section className="hero text-center py-5" style={{ background: "#b8c1ec" }}>
-      <div className="container-fluid">
-        <div className="row align-items-center">
-          <div className="col-md-5 d-flex justify-content-end">
-            <div className="image-container my-0"> {/* Apply the custom class */}
-              <img src={antonioImage} alt="Profile" className="profile-photo img-fluid shadow" style={{ maxWidth: '200px' }} />
+    <section className="text-center py-5" style={{ background: "#b8c1ec" }}>
+      <div className="container">
+        <div className="row align-items-center justify-content-center">
+          <div className="col-md-5">
+            <div className="text-dark">
+              <h1 className="display-1">Hi, I'm Antonio</h1>
+              <p className="text-white display-6">Frontend Developer</p>
+              <button className="btn btn-lg" href="#contact" style={{ background: "#232946", color: "#b8c1ec" }}>Contact</button>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="hero-text text-dark">
-              <h1>Hi, I am<br /><strong>Keston Antonio Schmidtgen</strong></h1>
-              <h3>Frontend Developer</h3>
-              <button className="btn btn-lg" style={{ background: "#eebbc3" }}>Contact</button>
+          <div className="col-md-3">
+            <div className="image-container">
+              <img src={antonioImage} alt="Profile" className="profile-photo" style={{ maxWidth: '300px' }} />
             </div>
           </div>
         </div>

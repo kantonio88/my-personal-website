@@ -3,13 +3,13 @@ import portraitImage from '../images/portrait.jpg';
 
 const About = () => {
   return (
-    <section id="about" className="about py-5 text-center" style={{ background: "#b8c1ec" }}>
+    <section id="about" className="about py-5" style={{ background: "#232946" }}>
       <div className="container">
-        <h2 className="py-2 text-light mb-5 display-4">About Me</h2>
+        <h2 className="text-light mb-4 display-4 text-center">About Me</h2>
         <div className="row align-items-center">
           <div className="col-md-7">
-            <div className="about-text">
-              <h3>Frontend Web Developer</h3>
+            <div className="about-text text-light">
+              <h3><strong>Frontend Web Developer</strong></h3>
               <p className="fs-5">
                 I am Keston Antonio Schmidtgen, a skilled frontend developer passionate about creating visually appealing and intuitive user experiences. Experienced in HTML, CSS, JavaScript, as well as frameworks like React and Vue.js, I am dedicated to delivering exceptional results. Explore my portfolio to witness my expertise in transforming ideas into captivating digital experiences.
               </p>

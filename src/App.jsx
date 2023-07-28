@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const appStyle = {
-  fontFamily: 'Source Sans Pro, sans-serif',
+  fontFamily: 'Myriad Pro, Arial',
 };
 
 const App = () => {
