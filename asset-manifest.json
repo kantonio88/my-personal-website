@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-personal-website/static/css/main.b321e360.css",
+    "main.js": "/my-personal-website/static/js/main.588ec235.js",
+    "static/media/portrait.jpg": "/my-personal-website/static/media/portrait.5ab581074a7bc0a14ca2.jpg",
+    "static/media/Antonio.Pro.image.png": "/my-personal-website/static/media/Antonio.Pro.image.7fde8c93ae61aec1ffa6.png",
+    "static/media/react-original.svg": "/my-personal-website/static/media/react-original.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/github-original.svg": "/my-personal-website/static/media/github-original.3c903c66b2c5334c8c0b80567c4ea422.svg",
+    "static/media/javascript-original.svg": "/my-personal-website/static/media/javascript-original.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "index.html": "/my-personal-website/index.html",
+    "static/media/bootstrap-plain.svg": "/my-personal-website/static/media/bootstrap-plain.b74f5e327438aeb217a910827f441e34.svg",
+    "static/media/typescript-original.svg": "/my-personal-website/static/media/typescript-original.8d9549db1a0f5d73a35aa5dab48a09f9.svg",
+    "static/media/git-plain.svg": "/my-personal-website/static/media/git-plain.45ffb8cc77681eed294253a776fe6c37.svg",
+    "static/media/css3-original.svg": "/my-personal-website/static/media/css3-original.39769a8bd378bf410d6b381a8d88fa35.svg",
+    "static/media/html5-original.svg": "/my-personal-website/static/media/html5-original.8664168d5bc90b1a24396f85aadbf623.svg",
+    "main.b321e360.css.map": "/my-personal-website/static/css/main.b321e360.css.map",
+    "main.588ec235.js.map": "/my-personal-website/static/js/main.588ec235.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b321e360.css",
+    "static/js/main.588ec235.js"
+  ]
+}
