@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg py-5" style={{ background: "#b8c1ec" }}>
       <div className="container">
-        <a className="navbar-brand logo text-dark fw-bold" href="https://example.com">K A S</a>
+        <a className="navbar-brand logo text-dark fw-bold" href="https://example.com">K A S S A N D R A</a>
         <button
           className="navbar-toggler"
           type="button"
